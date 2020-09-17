@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#fff,#fc6161);
 }
 
 /* hedder section starts from here */
@@ -71,11 +72,8 @@ p{
     background: #563434;
 
 }
-.hedder{
-    background: radial-gradient(#fff,#ffd6d6);
-}
 .hedder .row{
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 /* hedder section ends to here */
@@ -83,7 +81,7 @@ p{
 /* featuerd catogari section starts to here */
 
 .categories{
-    margin: 70px 0;
+    margin: 70px 0; 
 }
 .col-3{
     flex-basis: 30%;
@@ -151,7 +149,7 @@ h4{
 /* Exclusive offers section start from here */
 
 .offers{
-    background: radial-gradient(#fff,#ffd6d6);
+   /* background: radial-gradient(#fff,#ffd6d6); */
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -406,9 +404,15 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+
+/* Account page */
+
 .account-page{
     padding: 50px 0;
-    background: radial-gradient(#fff,#ffd6d6);
+}
+.account-page img{
+    width: 500px;
+    height: 750px;
 }
 .form-container{
     background: #fff;
