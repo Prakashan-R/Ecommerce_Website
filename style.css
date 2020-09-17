@@ -10,6 +10,10 @@ body{
 
 /* hedder section starts from here */
 
+.hedder .row img{
+    width: 500px;
+    height: 750px;
+}
 .navbar{
     display: flex;
     align-items: center;
